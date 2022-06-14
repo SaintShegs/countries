@@ -26,7 +26,7 @@ const Country_card = ({country}) => {
         
         
         <div className='card-item'>
-          <Link to={`./country-info/${country.name.common}`}>
+          <Link to={`./country-info/${country.capital}`}>
           
                 {country && (
 

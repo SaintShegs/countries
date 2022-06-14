@@ -11,7 +11,7 @@ const Country_info = () => {
 
     const getCountry = async () => {
         if (country_info.length > 3) {
-        const response = await fetch(`https://restcountries.com/v3.1/name/${country_info}`)
+        const response = await fetch(`https://restcountries.com/v3.1/capital/${country_info}`)
         const data = await response.json()
         console.log(data);
         setCountry(data)
